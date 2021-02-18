@@ -1,0 +1,9 @@
+config:
+  target: "http://191.239.116.63"
+  phases:
+    - duration: 20
+      arrivalCount: 100000
+scenarios:
+  - flow:
+      - get:
+          url: "/"
