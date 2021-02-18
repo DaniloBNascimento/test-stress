@@ -19,18 +19,6 @@ npm install -g artillery
 
 
 Arquivo de teste:
-
-# Crie 80000 usuários virtuais em 60 segundos (aproximadamente um a cada 3 segundos):
-
->config:
->  target: "http://191.239.116.63"
->  phases:
->>   - duration: 20
->      arrivalCount: 80000
-> scenarios:
->>  - flow:
->>      - get:
->          url: "/"
-          
+     
 # command for run artillery EXAMPLE:
 artillery run --output test-1.json test1-stress.yaml
