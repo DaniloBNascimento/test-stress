@@ -25,11 +25,11 @@ Arquivo de teste:
 >config:
 >  target: "http://191.239.116.63"
 >  phases:
->    - duration: 20
+>>   - duration: 20
 >      arrivalCount: 80000
 > scenarios:
->  - flow:
->      - get:
+>>  - flow:
+>>      - get:
 >          url: "/"
           
 # command for run artillery EXAMPLE:
