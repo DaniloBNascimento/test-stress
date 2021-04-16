@@ -1,0 +1,2 @@
+https://netflixtechblog.com/
+http://www.brendangregg.com/linuxperf.html
